@@ -1,0 +1,21 @@
+{
+	"manifest_version": 2,
+	"name": "web-data-extension",
+	"version": "1.0",
+	"description": "要知处事如临阵，终想做人如作诗",
+	"author": "junxi",
+	"omnibox": { "keyword" : "web" },
+	"icons":
+	{
+		"48": "icon.png",
+		"128": "icon.png"
+	},
+	"browser_action": 
+	{
+		"default_icon": "icon.png"
+	},
+	"chrome_url_overrides":
+	{
+		"newtab": "index.html"
+	}
+}
